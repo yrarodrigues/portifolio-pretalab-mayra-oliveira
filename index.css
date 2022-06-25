@@ -1,0 +1,168 @@
+*{
+    margin: 0; /*margem da pagina*/
+    padding: 0; /*espaçamento, seguindo relógio*/
+    outline: 0;  /*altura e largura*/
+}
+
+img {
+    float: center;
+    width: 45%;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    border-radius: 50%
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: #724796;
+    }
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+.lista-menu li a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #eaeaea;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #ff4dbc;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    font-size: 20px;
+    line-height: 32px;
+    color: #191022;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: #ff4dbc;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;    ;
+}
+
+.lista-local {
+    font-size: 18px;
+    color:#2F80ED;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-size: 300;
+}
+
+.wrapper-portifolio {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-size: 500;
+}
+
+.footer {
+    color: #ffff;
+    line-height: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #724796;
+}
+
+.estilo-icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.icon {
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+}
+
+
+.links {
+    text-decoration: none;
+    color: #ffff;
+}
+
